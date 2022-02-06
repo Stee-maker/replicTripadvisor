@@ -1,0 +1,373 @@
+/* Variables root */
+:root {
+  --bgc: white;
+  --font-family: "Trip Sans Reg";
+}
+
+/* Global configuration */
+
+body {
+  font-family: var(--font-family);
+}
+.container {
+  width: 1138px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 54px;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 28px;
+  font-family: var(--font-family);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 24px;
+  font-family: Georgia;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+h4 {
+  font-weight: bold;
+}
+a {
+  font-size: 14px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: #333333;
+}
+a:hover {
+  opacity: 80%;
+}
+.baseline {
+  font-size: 12px;
+  width: inherit;
+  color: #333333;
+}
+p {
+  font-size: 16px;
+  color: #333333;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+/* Header */
+header {
+  height: 60px;
+}
+header .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 188px;
+  height: 40px;
+  cursor: pointer;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav div {
+  margin-right: 20px;
+  padding: 6px 10px;
+}
+header nav div:hover {
+  background-color: #ededed;
+  cursor: pointer;
+  border-radius: 10px;
+  width: auto;
+}
+header nav div i {
+  margin-right: 6px;
+}
+header button {
+  border: none;
+  background-color: black;
+  color: var(--bgc);
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: inherit;
+}
+header button:hover {
+  opacity: 80%;
+}
+
+/* Main */
+h1 span {
+  color: red;
+}
+/* Navigation buttons (Hotel,Loaction de ...) */
+/* 1ere methode: sans classe dans le bloc nav */
+/* main nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  overflow: scroll;
+}
+main nav div {
+  display: flex;
+  width: 180px;
+  height: 68px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 10px;
+  justify-content: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+main nav div:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+} */
+
+/* 2ème methode: avec la clsse navigation_menu */
+.navigation_menu {
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navigation_menu div {
+  display: flex;
+  border: 1px solid black;
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.navigation_menu div:not(:last-child) {
+  margin-right: 12px;
+}
+.navigation_menu div:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+/* Images principales2 de main */
+.pictures {
+  width: 100%;
+  height: 430px;
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.col1 {
+  height: 100%;
+  flex: 1;
+  margin-right: 2px;
+}
+.col2 {
+  height: 100%;
+  width: 480px;
+}
+.col1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.col2 img {
+  width: 100%;
+  height: calc(50% - 2px);
+  object-fit: cover;
+}
+.col1:hover {
+  opacity: 80%;
+}
+.col2 img:hover {
+  opacity: 80%;
+}
+.text_baseline {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+/* La Ville Lumière éblouit en tous points */
+#ville_lumière {
+  height: 200px;
+  width: 46%;
+  margin-bottom: 40px;
+}
+
+/* Paris : les immanquables */
+
+section {
+  display: flex;
+  width: inherit;
+  height: 290px;
+  margin-bottom: 40px;
+  /* border: 1px solid black; */
+}
+.comment_paris {
+  height: 290px;
+  width: 273px;
+  margin-right: 20px;
+}
+.carroussel {
+  width: 930px;
+  display: flex;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.carroussel div {
+  height: 290px;
+  width: 275px;
+  flex-shrink: 0;
+}
+.carroussel div:not(:last-child) {
+  margin-right: 20px;
+}
+
+.carroussel div img {
+  height: 205px;
+  width: inherit;
+  object-fit: cover;
+}
+.parent {
+  position: relative;
+}
+.enfant {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.enfant .far i {
+  width: 40px;
+  height: 41px;
+}
+.enfant:hover {
+  opacity: 100%;
+  background-color: transparent;
+}
+img .enfant2 {
+  width: 34px;
+  height: 46px;
+}
+.carroussel div:hover {
+  cursor: pointer;
+  opacity: 80%;
+  cursor: pointer;
+}
+section .fas {
+  color: green;
+}
+
+/* En Tendance dans les forums */
+.text-decoration {
+  text-decoration: underline;
+  font-size: 12px;
+  color: #333333;
+  cursor: pointer;
+}
+
+.forum {
+  display: flex;
+  box-sizing: border-box;
+  border-top-right-radius: 10px;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-bottom: 20px;
+}
+.forum1 {
+  width: 370px;
+  height: 160px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-sizing: border-box;
+  background-color: #f9f1ec;
+}
+.forum1 h4 {
+  margin: 30px 10px 20px 30px;
+  text-align: start;
+}
+
+footer {
+  background-color: #f9f1ec;
+  /*  width: inherit;
+  height: inherit; */
+}
+.footer_info {
+  display: flex;
+}
+footer img {
+  height: 30px;
+  width: 30px;
+  margin: 20px 10px 20px 0;
+}
+
+.footer_info1 {
+  width: 730px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.footer_info1 > div {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.footer_info1 ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer_info1 li {
+  margin-right: 18px;
+  color: black;
+  font-weight: bold;
+  font-family: var(--font-family);
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.footer_info1 li:hover {
+  cursor: pointer;
+  color: #545455;
+}
+
+#info_tripadvisor {
+  width: 620px;
+  height: 100%;
+}
+#info_tripadvisor p {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+footer .baseline a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer_info2 button {
+  width: 180px;
+  height: 36px;
+  border-radius: 10px;
+  margin-top: 20px;
+}

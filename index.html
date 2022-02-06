@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/757a150034.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./asset/css/reset.css" />
+    <link rel="stylesheet" href="./asset/css/fonts.css" />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <title>TripAdvisor</title>
+  </head>
+  <body>
+    <!-- Header started -->
+
+    <!-- TripAdvisor Header -->
+    <header>
+      <div class="container">
+        <img
+          src="./asset/img/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+          alt="logo tripadvisor"
+        />
+        <nav>
+          <div><i class="fas fa-pencil-alt"></i><span>Avis</span></div>
+          <div><i class="far fa-heart"></i><span>Voyages</span></div>
+          <div><i class="far fa-bell"></i><span>Alertes</span></div>
+          <button>Connectez-vous</button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Header ended -->
+
+    <!-- Main started -->
+
+    <!-- TripAdvisor Main -->
+    <main>
+      <div class="container">
+        <h1><span>EXPLOREZ</span> PARIS</h1>
+
+        <!-- bouton de navigation hotels,locations de voyages,... -->
+        <nav class="navigation_menu">
+          <div><span>Hôtels</span><i class="fas fa-bed"></i></div>
+          <div>
+            <span>Locations de voyages</span><i class="fas fa-truck-moving"></i>
+          </div>
+          <div><span>Activités</span><i class="fas fa-hiking"></i></div>
+          <div><span>Restaurants</span><i class="fas fa-utensils"></i></div>
+          <div>
+            <span>Forum de voyages</span><i class="far fa-comments"></i>
+          </div>
+          <div><span>Plus</span><i class="fas fa-chevron-circle-down"></i></div>
+        </nav>
+
+        <!-- Images principales de main -->
+        <div class="pictures">
+          <div class="col1">
+            <img src="./asset/img/bord_seine.jpeg" alt="bord de seine" />
+          </div>
+          <div class="col2">
+            <img src="./asset/img/motards.jpeg" alt="motards" /><img
+              src="./asset/img/tour_eiffel.jpeg"
+              alt="tour eiffel"
+            />
+          </div>
+        </div>
+
+        <!-- baseline at the bottom of the main pictures -->
+        <div class="text_baseline">
+          <span class="baseline">France>Île-de-France>Paris</span>
+          <figcaption class="baseline">Visiter: Paris</figcaption>
+        </div>
+
+        <!-- La Ville Lumière éblouit en tous points -->
+
+        <div id="ville_lumière">
+          <h2>La Ville Lumière éblouit en tous points</h2>
+          <p>
+            Aucun autre endroit au monde ne fait autant rêver que Paris. La
+            ville séduit par son art, son architecture, sa culture et sa
+            cuisine, mais il y a aussi des merveilles plus discrètes qui
+            n’attendent qu’à être explorées : les ruelles pavées pittoresques,
+            les pâtisseries au coin de la rue et les petits bistrots douillets
+            qui vous invitent à boire un verre de beaujolais. Préparez-vous à
+            vous approprier Paris.
+          </p>
+        </div>
+        <h2>Paris : les immanquables</h2>
+
+        <!-- Paris : les immanquables -->
+        <section>
+          <div class="comment_paris">
+            <h3>Se divertir</h3>
+            <p>
+              Des lieux à voir, des rues à explorer et des expériences
+              emblématiques à Paris.
+            </p>
+            <a href="https://www.lereacteur.io/" target="_blank"
+              >Tout afficher</a
+            >
+          </div>
+
+          <!-- Scroll des images avec commentaires -->
+          <nav class="carroussel">
+            <div class="parent">
+              <img
+                src="./asset/img/eiffeltower.jpeg"
+                alt="tour eiffel et jardin"
+              /><i class="far fa-heart enfant"></i>
+              <!-- <img
+                class="enfant2"
+                src="./asset/img/tripchoice2021.png"
+                alt="Logo travellers choice"
+              /> -->
+              <h4>Tour Eiffel</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Tours et plateformes d'observation,<br />Monuments & Points
+                d'intérêt
+              </p>
+            </div>
+
+            <div class="parent">
+              <img src="./asset/img/louvre.jpeg" alt="Musée du louvre" /><i
+                class="far fa-heart enfant"
+              ></i>
+              <h4>Musée du Louvre</h4>
+              <div>
+                <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+                ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+                ><i class="far fa-circle"></i
+                ><span class="baseline"> 1234555</span>
+                <div>
+                  <p class="baseline">
+                    Monuments & Points d'intérêt,Tours et plateformes
+                    d'observation
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="parent">
+              <img src="./asset/img/arctriomphe.jpeg" alt="arc de triomphe" /><i
+                class="far fa-heart enfant"
+              ></i>
+              <h4>Arc de Triomphe</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img
+                src="./asset/img/musee_rodin.jpeg"
+                alt="Four Seasons Hotel George V"
+              /><i class="far fa-heart enfant"></i>
+              <h4>Four Seasons Hotel George V</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img
+                src="./asset/img/cathedralendp.jpeg"
+                alt="cathedrale notre dame de Paris"
+              /><i class="far fa-heart enfant"></i>
+              <h4>Cathedrale Notre Dame de Paris</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img
+                src="./asset/img/librairie_shakespare_company.jpeg"
+                alt="librairie shakespare company"
+              /><i class="far fa-heart enfant"></i>
+              <h4>Librairie Shakespare Company</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img src="./asset/img/musee_dorsay.jpeg" alt="musee d'Orsay" /><i
+                class="far fa-heart enfant"
+              ></i>
+              <h4>Musée d'Orsay</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img
+                src="./asset/img/marche_au_puce_stouien.jpeg"
+                alt="marche au puce St Ouen"
+              /><i class="far fa-heart enfant"></i>
+              <h4>Marche aux puces St Ouen</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img
+                src="./asset/img/basilique_sacrecoeur.jpeg"
+                alt="basilique sacre coeur"
+              /><i class="far fa-heart enfant"></i>
+              <h4>Basilique Sacre Coeur</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img
+                src="./asset/img/jardin_des_tuileries.jpeg"
+                alt="jardin des tuileries"
+              /><i class="far fa-heart enfant"></i>
+              <h4>Jardin des Tuileries</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+          </nav>
+        </section>
+
+        <!-- deuxième colonne -->
+
+        <!-- Paris : les immanquables -->
+        <section>
+          <div class="comment_paris">
+            <h3>Se reposer</h3>
+            <p>Un mélange de charme, de symboles et de modernité.</p>
+            <a href="https://www.lereacteur.io/" target="_blank"
+              >Tout afficher</a
+            >
+          </div>
+
+          <!-- Scroll des images avec commentaires -->
+          <nav class="carroussel">
+            <div class="parent">
+              <img
+                src="./asset/img/Le Bristol Paris.jpeg"
+                alt="Le Bristol Paris"
+              /><i class="far fa-heart enfant"></i>
+              <h4>Le Bristol Paris</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img
+                src="./asset/img/La Reserve Paris spa.jpeg"
+                alt="La Reserve Paris spa"
+              /><i class="far fa-heart enfant"></i>
+              <h4>La Reserve Paris spa</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img
+                src="./asset/img/Four Seasons Hotel George V.jpeg"
+                alt="musee rodin"
+              /><i class="far fa-heart enfant"></i>
+              <h4>Musée Rodin</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img
+                src="./asset/img/Hotel de Crillon A Rosewood Hotel.jpeg"
+                alt="Hotel de Crillon A Rosewood Hotel"
+              /><i class="far fa-heart enfant"></i>
+              <h4>Hotel de Crillon A Rosewood Hotel</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img src="./asset/img/Le Meurice.jpeg" alt="Le Meurice" /><i
+                class="far fa-heart enfant"
+              ></i>
+              <h4>Le Meurice</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img
+                src="./asset/img/Hotel des Grands Boulevards.jpeg"
+                alt="Hotel des Grands Boulevards"
+              /><i class="far fa-heart enfant"></i>
+              <h4>Hotel des Grands Boulevards</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img
+                src="./asset/img/The Hoxton Paris.jpeg"
+                alt="The Hoxton Paris"
+              /><i class="far fa-heart enfant"></i>
+              <h4>The Hoxton Paris</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img src="./asset/img/Hidden Hotel.jpeg" alt="Hidden Hotel" /><i
+                class="far fa-heart enfant"
+              ></i>
+              <h4>Hidden Hotel</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img
+                src="./asset/img/Hotel Signature St Germain du Près.jpeg"
+                alt="Hotel Signature St Germain du Près"
+              /><i class="far fa-heart enfant"></i>
+              <h4>Hotel Signature St Germain du Près</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+          </nav>
+        </section>
+
+        <!-- troisième colonne -->
+
+        <!-- Paris : les immanquables -->
+        <section>
+          <div class="comment_paris">
+            <h3>Se restaurer</h3>
+            <p>Bistrots et bars typiques, et plus encore à Paris.</p>
+            <a href="https://www.lereacteur.io/" target="_blank"
+              >Tout afficher</a
+            >
+          </div>
+
+          <!-- Scroll des images avec commentaires -->
+          <nav class="carroussel">
+            <div class="parent">
+              <img src="./asset/img/Verjus.jpeg" alt="Verjus" /><i
+                class="far fa-heart enfant"
+              ></i>
+
+              <h4>Verjus</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Tours et plateformes d'observation,<br />Monuments & Points
+                d'intérêt
+              </p>
+            </div>
+
+            <div class="parent">
+              <img src="./asset/img/114 Faubourg.jpeg" alt="114 Faubourg" /><i
+                class="far fa-heart enfant"
+              ></i>
+              <h4>114 Faubourg</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img src="./asset/img/Frenchie.jpeg" alt="Frenchie" /><i
+                class="far fa-heart enfant"
+              ></i>
+              <h4>Frenchie</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img
+                src="./asset/img/La Table de Colette.jpeg"
+                alt="La Table de Colette"
+              /><i class="far fa-heart enfant"></i>
+              <h4>La Table de Colette</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img src="./asset/img/ASPIC.jpeg" alt="ASPIC" /><i
+                class="far fa-heart enfant"
+              ></i>
+              <h4>ASPIC</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img src="./asset/img/Crêperie GIGI.jpeg" alt="Crêperie GIGI" /><i
+                class="far fa-heart enfant"
+              ></i>
+              <h4>Crêperie GIGI</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img
+                src="./asset/img/Juveniles Wine Bar.jpeg"
+                alt="Juveniles Wine Bar"
+              /><i class="far fa-heart enfant"></i>
+              <h4>Juveniles Wine Bar</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img src="./asset/img/Le Barav.jpeg" alt="Le Barav" /><i
+                class="far fa-heart enfant"
+              ></i>
+              <h4>Le Barav</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img src="./asset/img/Pedzouille.jpeg" alt="Pedzouille" /><i
+                class="far fa-heart enfant"
+              ></i>
+              <h4>Pedzouille</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Monuments & Points d'intérêt,Tours et plateformes d'observation
+              </p>
+            </div>
+            <div class="parent">
+              <img src="./asset/img/Le Rigmarole.jpeg" alt="Le Rigmarole" /><i
+                class="far fa-heart enfant"
+              ></i>
+              <h4>Le Rigmarole</h4>
+              <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="fas fa-circle"></i><i class="fas fa-circle"></i
+              ><i class="far fa-circle"></i
+              ><span class="baseline"> 1234555</span>
+              <p class="baseline">
+                Tours et plateformes d'observation,<br />Monuments & Points
+                d'intérêt
+              </p>
+            </div>
+          </nav>
+
+          <!-- En Tendance dans les forums -->
+        </section>
+        <div class="text_baseline">
+          <h3>En tendance dans les forums</h3>
+          <span class="text-decoration">Tout afficher</span>
+        </div>
+        <div class="forum">
+          <div class="forum1">
+            <h4>Pass Navigo découverte à l'aéroport <br />d'Orly</h4>
+          </div>
+          <div class="forum1">
+            <h4>Visite de Paris en famille - bons plans</h4>
+          </div>
+          <div class="forum1">
+            <h4>Resto soir vue tour eiffel et proche <br />croisiere</h4>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Main ended -->
+
+    <!-- Footer started -->
+    <footer>
+      <div class="container">
+        <div class="footer_info">
+          <div class="footer_info1">
+            <div>
+              <img
+                src="./asset/img/Tripadvisor_logoset_solid_green.svg"
+                alt="Tripadvisor logoset solid green"
+              />
+              <div id="info_tripadvisor">
+                <p class="baseline">
+                  © 2021 TripAdvisor LLC Tous droits réservés.
+                </p>
+                <div>
+                  <ul>
+                    <li>Conditions d'utilisation</li>
+                    <li>Confidentialité et utilisation des cookies</li>
+                    <li>Accord d'utilisation des cookies</li>
+                    <li>Plan du site</li>
+                    <li>Fonctionnement du site</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <p class="baseline">
+              Cette version de notre site internet s'adresse aux personnes
+              parlant français en France. Si vous habitez un autre pays ou une
+              autre <br />région, merci de choisir la version de Tripadvisor
+              appropriée pour votre pays ou région dans le menu déroulant.
+              <a class="baseline">plus</a>
+            </p>
+          </div>
+          <div class="footer_info2">
+            <button
+              type="button"
+              aria-haspopup="menu"
+              aria-label="Région:France"
+            ></button>
+            <button
+              type="button"
+              aria-haspopup="menu"
+              aria-label="Région:France"
+            ></button>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </footer>
+
+    <!-- Footer ended -->
+  </body>
+</html>
